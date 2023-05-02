@@ -10,19 +10,23 @@
     <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#logo"><img src="./src/assets/icon.png" id="icon"></a>
-        <ul class="header-list">
-            <a href="#about"><li class="header-list-item">Sobre nós</li></a>
-            <a href="#members"><li class="header-list-item">Integrantes</li></a>
-        </ul>
-    </header>
+    <div>
+        <header class="header row">
+            <div class="col-6 col-md-4 text-center mx-auto">
+                <a href="#logo"><img src="./src/assets/icon.png" id="icon"></a>
+            </div>
+            <div class="col-6 col-md-8 text-right">
+                <ul class="header-list d-flex justify-content-end">
+                    <a href="#about"><li class="header-list-item">Sobre nós</li></a>
+                    <a href="#members"><li class="header-list-item">Integrantes</li></a>
+                </ul>
+            </div>
+        </header>
     <div class="about" id="about">
         <div class="about-info-box">
             <h1>Cyber<span style="color: rgb(56, 56, 172);">Saturn</span>.</h1><br>
             <p>
-               
-<b>CyberSaturn</b> é um grupo formado no hackathon da ETEC de Peruíbe com a finalidade de desenvolver soluções tecnológicas utilizando tecnologias avançadas. Com foco em inovação e criatividade, o grupo busca explorar as possibilidades da tecnologia para solucionar problemas e atender demandas da sociedade de forma eficiente e eficaz. A equipe está comprometida em utilizar suas habilidades e conhecimentos para contribuir com a transformação digital e o desenvolvimento sustentável.
+               <b>CyberSaturn</b> é um grupo formado no hackathon da ETEC de Peruíbe com a finalidade de desenvolver soluções tecnológicas utilizando tecnologias avançadas. Com foco em inovação e criatividade, o grupo busca explorar as possibilidades da tecnologia para solucionar problemas e atender demandas da sociedade de forma eficiente e eficaz. A equipe está comprometida em utilizar suas habilidades e conhecimentos para contribuir com a transformação digital e o desenvolvimento sustentável.
             </p>
             <button type="button" class="btn btn-dark"><a href="https://github.com/iamthepoe/cybersaturn">GitHub</a></button>
             <button type="button" class="btn btn-dark"><a href="#"> Instagram</a></button>
@@ -34,7 +38,7 @@
 
     <div class="members" id="members">
         <h3>Conheça nossos membros!</h3>
-        <br>
+        <br><br>
         <div class="members-info-box">
             <div class="member-image" id="memberImage">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Twemoji2_1f602.svg/1200px-Twemoji2_1f602.svg.png">
@@ -65,6 +69,7 @@
            <h4>Cyber<span style="color: rgb(56, 56, 172);">Saturn</span>.</h4>
         </div>
     </footer>
+    </div>
     <script src="./src/script/members.js"></script>
 </body>
 
