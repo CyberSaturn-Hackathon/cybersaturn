@@ -28,8 +28,8 @@ image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Twemoji2_1f602
 },
 {
     Mname: "Maria Victoria", 
-    quote: "Gosto muito de hackathons e do meu grupo!", 
-    image: "https://sociedadedospsicologos.files.wordpress.com/2018/06/11.jpg?resize=900%2C809"
+    quote: "Amo arte.", 
+    image: "./src/assets/kiki.png"
 },
 
 {
@@ -44,8 +44,8 @@ image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Twemoji2_1f602
 },
 {
     Mname: "João Vitor", 
-    quote: "Sou muito fã de Hackathons também!", 
-    image: "https://www.promoview.com.br/uploads/images/unnamed%2819%29.png"
+    quote: "Amo ler!", 
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JCZ9q5gng4YoPHPthSsOYCKjLeMDjzx0Lw"
 },
 {
     Mname: "Mateus Gustavo", 
